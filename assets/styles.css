@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #3e97e0;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #f6f9fc98;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .header-content h1 {
+    margin-right: 10px;
+  }
+  
+  .section-content {
+    display: flex;
+    align-items: center;
+    text-align: justify; 
+    padding: 30px;
+  }
+  
+  .section-content h2 {
+    margin-bottom: 20px;
+    padding-right: 15px;
+  }
+  
+  .work-gallery {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .work-gallery img {
+    width: 200px;
+    height: auto;
+  }
+
+  figure {
+    border: 2px #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    }
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
