@@ -1,6 +1,6 @@
 # Advanced CSS Portfolio
 
-##Description
+#Description
 Showcase my abilities with a professional portfolio
 
-##ChangeLog
+#ChangeLog
